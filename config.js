@@ -93,7 +93,7 @@ const config = {
     // This is the bot owner, this should be the highest permission level available.
     // The reason this should be the highest level is because of dangerous commands such as eval
     // or exec (if the owner has that).
-    { level: 999,
+    { level: 10,
       name: "Bot Owner", 
       // Another simple check, compares the message author id to the one stored in the config file.
       check: (message) => message.client.config.ownerID === message.author.id
