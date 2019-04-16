@@ -218,6 +218,7 @@ exports.exec = async (Bastion, message, args) => {
 exports.config = {
   aliases: [],
   enabled: true,
+  permLvl: 'Moderator',
   argsDefinitions: [
     { name: 'item', type: String, multiple: true, defaultOption: true },
     { name: 'timeout', type: Number, alias: 't', defaultValue: 3 },
@@ -225,7 +226,7 @@ exports.config = {
     { name: 'reroll', type: String, alias: 'r' },
     { name: 'end', type: String, alias: 'e' }
   ],
-  ownerOnly: false
+
 };
 
 exports.help = {
