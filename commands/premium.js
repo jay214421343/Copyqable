@@ -6,12 +6,12 @@ exports.conf = {
   enabled: true,
   guildOnly: false,
   aliases: [],
-  permLevel: "Bot Owner"
+  permLevel: "User"
 };
 
 exports.help = {
-  name: "test",
+  name: "premium",
   category: "Miscelaneous",
-  description: "a test command",
-  usage: "test"
+  description: "Buy The Premium Bot!",
+  usage: "premium"
 };
