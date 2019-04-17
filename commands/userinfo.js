@@ -104,7 +104,7 @@ exports.conf = {
   enabled: true,
   guildOnly: false,
   aliases: ["uinfo"],
-  permLevel: "User",
+  permLevel: "User"
 };
 // End of Permission System, etc.
 
