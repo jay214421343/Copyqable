@@ -6,7 +6,7 @@ let cryGifs = [
 
 exports.run = async (client, message, args, level) => { // eslint-disable-line no-unused-vars
   try {        
-    let embed = new client.Embed('blend', {
+    let embed = new Discord.Embed('blend', {
       title: message.author.username + ' cried',
       image: cryGifs.random()
     });
